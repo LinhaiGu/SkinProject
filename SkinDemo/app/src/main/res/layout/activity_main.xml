@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:skinChange="true"
+    android:background="@drawable/girl"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_color"
+        app:skinChange="true"
+        android:text="点击进行换肤"
+        tools:ignore="MissingPrefix" />
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_color"
+        app:skinChange="true"
+        android:text="点击跳转"
+        tools:ignore="MissingPrefix" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:skinChange="true"
+        android:textSize="15sp"
+        android:textColor="@color/text_color"
+        android:text="这是一段文本，当点击进行换肤时，颜色会进行相应的变化"
+        tools:ignore="MissingPrefix" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:skinChange="true"
+        android:src="@drawable/level"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingPrefix" />
+</LinearLayout>
